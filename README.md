@@ -20,7 +20,7 @@ The bar retains Omarchy 4.5's workspace layout indicator.
 For Omarchy 4.5's Lua configuration, from a desktop terminal:
 
 ```sh
-omarchy plugin add https://github.com/Desert-sabaku/omarchy-shared-workspaces.git --enable
+omarchy plugin add https://github.com/OrzSabaku/omarchy-shared-workspaces.git --enable
 ```
 
 The plugin ID is `sabaku.workspaces`. If that ID already exists as a local clone,
