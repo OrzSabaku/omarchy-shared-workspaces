@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sabaku.workspaces",
+  "name": "Shared workspaces",
+  "version": "1.0.0",
+  "author": "Desert-sabaku",
+  "description": "Restore global workspace navigation from Omarchy 4.0.6",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Workspaces.qml"
+  },
+  "barWidget": {
+    "displayName": "Shared workspaces",
+    "description": "Workspace number indicators",
+    "category": "Compositor",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.workspaces"
+  }
+}
